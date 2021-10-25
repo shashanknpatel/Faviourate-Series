@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function titlebar(val)
+    {
+    var msg = "My faviourate Series";
+    var speed = 500;
+    var pos = val;var msg1 = "****** "+msg+" ******";
+    var msg2 = "------- "+msg+" -------";if(pos == 0)
+    {
+    masg = msg1;
+    pos = 1;
+    }
+    else if(pos == 1)
+    {
+    masg = msg2;
+    pos = 0;
+    }
+    document.title = masg;
+    timer = window.setTimeout("titlebar("+pos+")",speed); }
+    titlebar(0);
+    </script>
+    
+    <div class="title">
+        Anime
+    </div>
+   <!--myheroacedemia-->
+    <div class="box">
+             <a href="https://www.imdb.com/title/tt5626028/">
+    <img src="https://c4.wallpaperflare.com/wallpaper/11/266/508/anime-my-hero-academia-angry-belt-wallpaper-preview.jpg" width="400" height="200"alt="My Hero Academia"></a>
+               <p>My hero Academia</p> </div>
+               <!--drstone-->
+            <div class="box">
+                <a href="https://www.imdb.com/title/tt9679542/">
+                <img src="images/Dr.stone.jpg"  width="400" height="200" alt="Dr.Stone">
+            </a>
+            <p>Dr.Stone</p>
+            </div>
+            <!--Ballroom-->
+            <div class="box">
+                <a href="https://www.imdb.com/title/tt7161104/">
+                <img src="images/Ballroom.jpg"width="280" height="200" alt="Ballroom"></a>
+                <p>Ballroom</p>
+            </div>
+            <!--Attack on titan-->
+            <div class="box">
+                <a href="https://www.imdb.com/title/tt2560140/">
+                <img src="images/Attackontitan.jpg" width="400" height="200" 
+                alt="AttackOnTitan"></a>
+                <p>Attack on Titan</p>
+            </div>
+            <div class="title">
+                Hollywood Series
+            </div>
+            <div class="box">
+                <a href="https://www.imdb.com/title/tt4574334/">
+                <img src="images/strangerthings.jpg" alt="stranger things" width="400" height="200">
+            </a>
+            <p>Stranger things</p>
+            </div>
+            <div class="box">
+                <a href="https://www.imdb.com/title/tt5753856/">
+                <img src="images/Dark.jpg" alt="Dark" width="400" height="200">
+            </a>
+            <p>Dark</p>
+            </div>
+
+</body>
+</html>
